@@ -17,14 +17,6 @@ produk.push(["'.$result['Foto'].'","'.$result['Nama_Produk'].'", "'.$result['Har
 
 echo '<script>
 
-function destroy(){
-    for (var i = 0; i < produk.length + 20; i++){
-        var olddata=document.getElementById("el"+i).lastChild;
-        document.getElementById("swip").removeChild(olddata);
-        document.getElementById("swipview").removeChild(olddata);
-        }
-}
-
 function Remove() {
   for (var i = 0; i < produk.length; i++){
     dup = document.getElementById(i);
