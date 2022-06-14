@@ -22,7 +22,7 @@ if (!empty($_POST['Username']) && !empty($_POST['Password']) && !empty($_POST['N
         mysqli_query($db, "insert into akun (Nama, Username, Email, Password, NoH) values ('$nama', '$username', '$email', '$password', '$noH')");
         echo '<script>
         alert("Berhasil Didaftar");
-        window.location.href = "beranda.html";
+        window.location.href = "index.html";
         </script>';
         }
         else {
